@@ -78,6 +78,32 @@ p, li{
 }
 
 
+
+.sub{
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+  padding: 20px
+}
+
+.div-1{
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.div-2{
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.div-3{
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+
+
 .container{
   display: flex;
   width: 80%;
@@ -105,7 +131,7 @@ p, li{
 .hbutt{
   position: absolute;
   bottom:-50px;
-  left: 75px;;
+  right: 75px;;
 }
 .hbutt img{
   border-radius: 50%; 
@@ -114,7 +140,7 @@ p, li{
 
 .hbutt{
     position: absolute;
-    left: 250px;
+    right: 350px;
     width: 125px;
     height: 125px;
     margin:-60px 0 0 -60px;
@@ -199,14 +225,14 @@ padding-top: 95px;
 .pumpkin-top{
   height: 140px;
   width: 100vw;
-  background-color: rgb(255,231,147);
+  background-color: rgb(242,173,133);
   position: relative;
   padding-top: 60px;
   text-align:center;
 }
 .pumpkin-body{
 width: 100vw;
-background-color: rgb(255,244,206);
+background-color: rgb(254,234,203);
 min-height: 100vh;
 padding-top: 95px;
 }
